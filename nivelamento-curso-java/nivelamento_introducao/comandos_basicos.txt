@@ -21,4 +21,4 @@
 
 ### Status do projeto
 
--- git status (mostra os arquivos trabalhados)
+-- git status (mostra os arquivos trabalhados, antes do commit)
