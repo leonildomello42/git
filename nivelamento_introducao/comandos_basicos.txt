@@ -1,0 +1,24 @@
+###Configuracao de identificacao:
+
+-- git config --global user.name "seu nome"
+-- git config --global user.email "seu email"
+-- git config --list
+
+###Configurar chave SSH:
+
+-- Gerar uma chave SSH no computador
+-- Cadastrar chave no Github
+
+### Comandos iniciais:
+
+-- git config --global init.defaultBranch "name"
+-- git init
+-- git add .
+-- git commit -m "Mensagem explicativa"
+-- git branch -M main
+-- git remote add origin git@github.com:seuusuario/seurepositorio.git
+-- git push -u origin main
+
+### Status do projeto
+
+-- git status (mostra os arquivos trabalhados)
