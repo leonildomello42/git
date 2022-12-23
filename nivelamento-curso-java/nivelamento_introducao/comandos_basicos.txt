@@ -22,3 +22,11 @@
 ### Status do projeto
 
 -- git status (mostra os arquivos trabalhados, antes do commit)
+
+
+### Clonando um repositorio:
+
+-- git clone git@github.com:seuusuario/seurepositorio.git
+-- git add .
+-- git commit -m "Mensagem explicativa"
+-- git push
