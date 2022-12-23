@@ -4,10 +4,12 @@
 -- git config --global user.email "seu email"
 -- git config --list
 
+
 ###Configurar chave SSH:
 
 -- Gerar uma chave SSH no computador
 -- Cadastrar chave no Github
+
 
 ### Comandos iniciais:
 
@@ -19,9 +21,11 @@
 -- git remote add origin git@github.com:seuusuario/seurepositorio.git
 -- git push -u origin main
 
+
 ### Status do projeto
 
 -- git status (mostra os arquivos trabalhados, antes do commit)
+
 
 ### Clonando um repositorio:
 
@@ -35,3 +39,28 @@
 
 -- git log (exibe historico de commits)
 -- git log --oneline
+-- git diff arquivo.txt (mostra as alteracoes)
+
+
+### checkout(Permite modificar temporariamente os arquivos do projeto ao estado de um dado commit
+ou branch):
+
+-- git checkout main
+-- git checkout codigo_commit
+-- git checout HEAD~1 (penúltimo commit)
+-- git checout HEAD~2 (antepenúltimo commit)
+
+# antes de fazer o checkout para voltar para HEAD, certifique-se de que não
+#haja mudanças nos arquivos. Se você acidentalmente mudou alguma coisa, desfaça as
+#modificações usando:
+
+-- git reset
+-- git clean -df
+-- git checkout -- .
+
+
+### Remover arquivos da area do stage:
+
+-- git status
+-- git reset (desfaz o add .)
+
