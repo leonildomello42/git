@@ -34,3 +34,4 @@
 ### Commits:
 
 -- git log (exibe historico de commits)
+-- git log --oneline
