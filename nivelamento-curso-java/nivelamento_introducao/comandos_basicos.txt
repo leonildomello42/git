@@ -64,3 +64,13 @@ ou branch):
 -- git status
 -- git reset (desfaz o add .)
 
+
+### Desfazer ultimo commit - sem desfazer as modificacoes:
+
+-- git reset --soft HEAD~1
+
+
+### Deletar commits:
+
+-- git reset --hard HEAD~1 (codigo do commit)
+
